@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+nav ul{
+    margin-left: 13%;
+    display: flex;
+}
+nav li{
+    margin-top: 20px;
+    display: inline-block;
+}
+nav li a{
+    color: black;
+    margin: 5px 30px 0px 0px;
+    text-decoration: none;
+    font-size: large;
+}
+
+#home:hover,#about:hover,#service:hover,#contact:hover,#login:hover,#signup:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+#tagline {
+    margin: 15% 0% 0% 13%;
+    font-size: large;
+    color: black;
+}
+
+#heading2 {
+    margin: 1% 0% 0% 13%;
+    font-size: 70px;
+    font-weight: bolder;
+    color: black;
+}
+h4{ 
+    margin-top: 3%;
+    text-align: center; 
+    font-size: 30px;
+    font-weight: bolder;
+}
+article{
+    text-align: center;
+    margin: 3% 13% 0% 13%;
+    font-size: 20px;
+
+}
+#techy{
+    display: flex;
+}
+#aboutdesp{
+    padding: 1% 0%;
+    font-size: 20px;
+    /* border: 1px solid black; */
+    width: 40%;
+    text-align: justify;
+    margin-left: 13%;
+    margin-right: 3%;
+}
+#techy img{
+    margin-right: 13%;
+    margin-top: 2%;
+    width: 35%;
+    height: 255px;
+}
+#mission{
+    padding: 1% 0%;
+    font-size: 20px;
+    /* border: 1px solid black; */
+    width: 40%;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 13%;
+}
+#mission-vission{
+    display: flex;
+}
+#mission-vission img{
+    margin-left: 13%;
+    margin-top: 2%;
+    width: 35%;
+    height: 255px;
+}
+#techy{
+    
+}
+.images{      
+    height: 200px;
+    /* border: 1px solid black; */
+    display:flex;
+    margin-top: 3%;
+    margin-right: 13%;
+    margin-left: 13%;
+    margin-bottom: 3%;
+}
+.teambox{
+
+}
+.teamimage{
+    /* border-radius: 70px; */
+    /* position: absolute; */
+    margin:3% 0% 0% 5%;
+    width: 100%;
+    height: 90%;
+    border: 1px solid black;
+}
+.teamimage:hover{
+    /* width: 100%; */
+    height:100%;
+    position: relative;
+    margin-top: 0%;
+    border: 2px solid black;
+}
+.teamname{
+    position: absolute;
+    text-align: center;
+    margin-left: 8%;
+    
+}
+.partners{
+    /* border: 1px solid black; */
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 300px;
+    display: flex;
+}
+.testimonial{
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border: 1px solid black;
+    width: 30%;
+    height: 80%;
+    margin: 2% 2% 0% 2%;
+    box-sizing: border-box;
+    
+}
+.testimonial h5{
+    background-color: rgb(111, 97, 124);
+    text-align: center;
+    margin: 2% 3% 0% 18%;
+    font-size: larger;
+}
+.testimonial p{
+    position: relative;
+    /* background-color: bisque; */
+    margin: 5% 3% 0% 3%;
+
+}
+header{
+    width: 100%;
+    height: 480px;
+    background-image: url(https://img.freepik.com/premium-photo/business-meeting_53876-91042.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar {
+    margin: 1% 5% 0% 20%;
+    /* border: 1px solid red; */
+    float: right;
+    display: inline-block;
+}
+
+.navbar a {
+    margin-right: 5px;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-image: url(https://img.freepik.com/premium-photo/business-meeting_53876-91042.jpg);
+    background-size: cover;
+    margin-top: 5%;
+    height: 50px;
+    margin-bottom: 1%;
+    display: flex;
+}
+
+#copyright {
+    margin: 1% 0% 0% 10%;
+
+}
